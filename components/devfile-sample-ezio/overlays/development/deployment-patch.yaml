@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-ezio
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0073-tenant/ci10t-786-0073-app/devfile-sample-ezio@sha256:59f04b983c334a07997e28b194c8b25267cb5e110877bc6be7f73a5775de01f6
+        name: my-nodejs
+        resources: {}
+status: {}
