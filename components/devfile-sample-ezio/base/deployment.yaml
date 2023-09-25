@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ezio
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0073-tenant/ci10t-786-0073-app/devfile-sample-ezio@sha256:59f04b983c334a07997e28b194c8b25267cb5e110877bc6be7f73a5775de01f6
         name: my-nodejs
         ports:
         - containerPort: 3001
